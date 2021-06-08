@@ -82,3 +82,46 @@ function leapYear(year) {
 }
 
 leapYear(2001);
+
+
+// Invatation challenge
+var dadka = ["Ahmed", "Darwish","Cade","Will waal","Hussain","wakaa"];
+var name = prompt("Enter your name : ");
+if (dadka.includes(name)) {
+    alert("Welcom");
+
+}else {
+    alert("Soory you are not allowed")
+}
+
+
+// cHILDREN gAME
+
+var output = [];
+   var inp = 1;
+ function fuzzBuzz() {
+
+   if (inp % 3 === 0 && inp % 5 === 0 ) {
+       output.push("FizzyBuzz");
+   }
+   else if (inp % 3 === 0) {
+       output.push("Fizz")
+    }
+     else if (inp % 5 === 0) {
+       output.push("Fuzzy");
+    }
+
+    else {
+
+
+      output.push(inp);
+
+
+
+ }
+     inp++;
+    console.log(output);
+
+ }
+
+fuzzBuzz()
